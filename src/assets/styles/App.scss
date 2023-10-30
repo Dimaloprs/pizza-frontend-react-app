@@ -1,0 +1,30 @@
+.App {
+	margin: 35px auto;
+	border-radius: 10px;
+	background: #fff;
+	box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.03);
+	width: 1500px;
+	height: 100vh;
+}
+
+    
+.basket, .line, .cost, .numberGoods {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+}
+.basket {
+    width: 16px;
+    height: 16px;
+}
+.line {
+    width: 1px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+
+
+

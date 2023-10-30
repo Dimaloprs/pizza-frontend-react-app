@@ -1,0 +1,38 @@
+.headerWrapper {
+	display: flex;
+	justify-content: space-between;
+	padding: 40px 60px;
+}
+.leftHeader {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	img {
+		margin-right: 15px;
+		width: 38px;
+		height: 38px;
+	}
+
+	h2 {
+		color: #181818;
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 800;
+		line-height: normal;
+		letter-spacing: 0.24px;
+	}
+
+	p {
+		color: #7b7b7b;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+	}
+}
+
+
+
+hr {
+	background: #ffffff;
+}
