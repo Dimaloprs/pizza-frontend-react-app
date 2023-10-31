@@ -1,0 +1,30 @@
+.btnWhite {
+	background: #f9f9f9;
+	color: #2c2c2c;
+	text-align: center;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.24px;
+}
+
+.btnBlack {
+	background: #282828;
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.24px;
+}
+
+.btnBlack,
+.btnWhite {
+	cursor: pointer;
+	padding: 0px 30px;
+	border: none;
+	border-radius: 30px;
+	height: 46px;
+}

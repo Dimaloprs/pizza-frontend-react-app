@@ -1,0 +1,30 @@
+.sortBy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    img {
+        transform: rotate(180);
+        cursor: pointer;
+    }
+}
+
+.textBy {
+    margin: 0px 10px;
+    color: #2C2C2C;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.21px;
+}
+
+.sortCategories {
+    color: #FE5F1E;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.21px;
+    border-bottom: 1px dashed #FE5F1E;
+}

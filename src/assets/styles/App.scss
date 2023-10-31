@@ -9,6 +9,7 @@
 
     
 .basket, .line, .cost, .numberGoods {
+    margin: 10px;
     color: #fff;
     font-size: 16px;
     font-style: normal;
@@ -25,6 +26,13 @@
     background: rgba(255, 255, 255, 0.25);
 }
 
+
+.filtration {
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 
 

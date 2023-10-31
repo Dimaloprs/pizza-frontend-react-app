@@ -10,7 +10,7 @@ const Header: React.FC<HeaderProps> = ({ children }) => {
 				<div className={cls.leftHeader}>
 					<img src='logo.svg' alt='Логотип пиццерии' />
 					<span>
-						<h2>REACT PIZZA</h2>
+						<h2>DODO PIZZA</h2>
 						<p>самая вкусная пицца во вселенной</p>
 					</span>
 				</div>

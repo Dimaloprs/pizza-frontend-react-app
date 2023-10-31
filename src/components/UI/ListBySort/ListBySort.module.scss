@@ -1,0 +1,43 @@
+.ListBySort {
+    position: absolute;
+    top: 35px;
+    right: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 132px;
+	height: 136px;
+	background: #fffefe;
+
+	box-shadow: 0px 7px 7px 7px rgba(0, 0, 0, 0.05);
+	border-radius: 15px;
+	.white {
+		color: #000;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+		letter-spacing: 0.21px;
+	} 
+
+	.orange {
+		color: #fe5f1e;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;
+		letter-spacing: 0.21px;
+	}
+
+    .white, .orange {
+		&:hover {
+			transition: 350ms;
+			color: #fe5f1e;
+		}
+		cursor: pointer;
+        display: block;
+		list-style: none;
+
+    }
+}
